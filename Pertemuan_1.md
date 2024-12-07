@@ -84,9 +84,3 @@ Sistem operasi bertugas untuk:
    Memahami bagaimana OS mengoptimalkan penggunaan perangkat keras.
 4. **Keamanan dan Proteksi:** 
    Mempelajari cara melindungi data dan sistem dari ancaman.
-
----
-
-## Referensi
-- Silberschatz, Abraham, et al. *Operating System Concepts*.
-- Andrew S. Tanenbaum, *Modern Operating Systems*.
