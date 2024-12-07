@@ -1,4 +1,4 @@
-# Masalah Critical Section dan Deadlock
+# Pertemuan 8: Konsep Critical Section, Sinkronisasi Software, dan Sinkronisasi Hardware
 
 ## 1. Masalah Critical Section
 Critical Section adalah bagian dari kode dalam suatu proses di mana proses tersebut mengakses sumber daya bersama (shared resource) yang tidak boleh diakses secara bersamaan oleh proses lain. 
