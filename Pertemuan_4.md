@@ -58,7 +58,7 @@ write(fd, "Hello World", 11);
 close(fd);
 ```
 
-## 2.2 Sistem Program
+### 2.2 Sistem Program
 Sistem program adalah perangkat lunak yang mendukung pengembangan aplikasi, seperti:
 
 - **Compiler**: 
@@ -75,10 +75,10 @@ Sistem program adalah perangkat lunak yang mendukung pengembangan aplikasi, sepe
 
 ---
 
-## 2.3 Struktur Sistem Operasi
+### 2.3 Struktur Sistem Operasi
 Sistem operasi memiliki beberapa struktur untuk mengorganisasi komponennya:
 
-### 2.3.1 Struktur Sederhana
+#### 2.3.1 Struktur Sederhana
 - Sistem operasi dengan struktur sederhana memiliki desain **monolitik**, di mana semua fungsi digabung dalam satu kesatuan.
 - **Kelebihan**: Mudah untuk diimplementasikan pada komputer kecil.
 - **Kekurangan**: Kurang modular, sulit dikembangkan.
@@ -86,7 +86,7 @@ Sistem operasi memiliki beberapa struktur untuk mengorganisasi komponennya:
 
 ---
 
-### 2.3.2 Monolithic System
+#### 2.3.2 Monolithic System
 - Sistem monolitik memiliki satu kernel besar yang menjalankan semua layanan.
 - Kernel menangani semua tugas seperti manajemen proses, memori, file, I/O, dll.
 - **Kelebihan**: Performa tinggi karena semua fungsi ada di satu tempat.
@@ -95,7 +95,7 @@ Sistem operasi memiliki beberapa struktur untuk mengorganisasi komponennya:
 
 ---
 
-### 2.3.3 Pendekatan Berlapis (Layered Approach)
+#### 2.3.3 Pendekatan Berlapis (Layered Approach)
 - Sistem operasi dibagi menjadi lapisan-lapisan, masing-masing dengan tugas tertentu.
 - Lapisan atas hanya dapat menggunakan layanan dari lapisan di bawahnya.
 - **Kelebihan**: Mudah untuk debug dan pengembangan karena modularitas.
@@ -104,7 +104,7 @@ Sistem operasi memiliki beberapa struktur untuk mengorganisasi komponennya:
 
 ---
 
-### 2.3.4 Mesin Virtual
+#### 2.3.4 Mesin Virtual
 - **Definisi**: Memungkinkan satu komputer menjalankan beberapa sistem operasi secara bersamaan.
 - Mesin virtual menciptakan lingkungan eksekusi virtual untuk setiap sistem operasi.
 - **Kelebihan**: Mendukung isolasi dan fleksibilitas.
@@ -113,7 +113,7 @@ Sistem operasi memiliki beberapa struktur untuk mengorganisasi komponennya:
 
 ---
 
-### 2.3.5 Client-Server Model
+#### 2.3.5 Client-Server Model
 - **Definisi**: Sistem operasi menggunakan model client-server, di mana server menyediakan layanan yang diminta oleh client.
 - Cocok untuk sistem terdistribusi, di mana banyak komputer berbagi sumber daya.
 - **Kelebihan**: Mudah diatur dan dipelihara dalam jaringan besar.
