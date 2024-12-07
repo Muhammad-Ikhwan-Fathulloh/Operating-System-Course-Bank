@@ -1,4 +1,4 @@
-# Konsep Dasar Memori Virtual
+# Pertemuan 10: Fungsi Memori Semu (Virtual Memory)
 
 ## 1. Memori Virtual
 Memori virtual adalah teknik yang digunakan untuk memberikan ilusi memori yang lebih besar dari memori fisik yang sebenarnya tersedia dengan memanfaatkan penyimpanan sekunder. Dengan memori virtual, sistem dapat menjalankan program yang lebih besar daripada memori fisik yang tersedia.
