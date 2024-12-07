@@ -32,27 +32,28 @@
 
 8. **Pertemuan 8**: Konsep Critical Section, Sinkronisasi Software, dan Sinkronisasi Hardware  
    [Lihat Materi](Pertemuan_8.md)  
-   [Simulasi: Deadlock and Synchronization Simulator](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/7_Deadlocks.html)
+   [Simulasi: Deadlock and Synchronization Simulator](https://penguin.ewu.edu/cscd472/Interactive/Java/DeadlockSim.html)
 
 9. **Pertemuan 9**: Pengertian dan Konsep Dasar Memori  
    [Lihat Materi](Pertemuan_9.md)  
-   [Simulasi: Memory Management Visualization](http://www.cs.colostate.edu/~cs370/Fall21/memory/memory.html)
+   [Simulasi: Memory Management Visualization](https://www3.cs.stonybrook.edu/~cse306/memorysim/memorysim.swf)  
+   *Catatan*: Gunakan browser yang mendukung Flash player atau emulator seperti **Ruffle** untuk menjalankan simulasi.
 
 10. **Pertemuan 10**: Fungsi Memori Semu (Virtual Memory)  
     [Lihat Materi](Pertemuan_10.md)  
-    [Simulasi: Virtual Memory Manager](https://www.cs.usfca.edu/~cruse/cs630f04/pgsim/pgsim.html)
+    [Simulasi: Virtual Memory Manager](https://os.zcu.cz/VMsim/)
 
 11. **Pertemuan 11**: Konsep File dan Directory serta Manajemen Ruang Kosong dalam Sistem File  
     [Lihat Materi](Pertemuan_11.md)  
-    [Simulasi: File System Simulator](http://people.scs.carleton.ca/~deugo/OSDemos/FileSystem/)
+    [Simulasi: File System Simulator](https://filestore.simulator.hostingbysir.com/)  
 
 12. **Pertemuan 12**: Pengertian dan Prinsip Kerja Perangkat Keras I/O  
     [Lihat Materi](Pertemuan_12.md)  
-    [Simulasi: I/O System Simulator](https://www.tutorialspoint.com/operating_system/os_io_system.html)
+    [Simulasi: I/O System Simulator](https://simulations.io/tutorials/io-simulation/)
 
 13. **Pertemuan 13**: Mekanisme Proteksi dalam Sistem Komputer  
     [Lihat Materi](Pertemuan_13.md)  
-    [Simulasi: Cybersecurity Lab](https://www.kaspersky.com/cybersecurity)
+    [Simulasi: Cybersecurity Interactive Lab](https://cybersecurity-simulator.ekasys.io/)
 
 14. **Pertemuan 14**: E-Learning dan Evaluasi Sistem Operasi  
     [Lihat Materi](Pertemuan_14.md)  
