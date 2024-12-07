@@ -1,4 +1,4 @@
-# Sistem Operasi
+# Pertemuan 2: Dasar-dasar Sistem Operasi
 
 ## 1. Konsep Dasar Sistem Komputer dan Sistem Operasi
 
