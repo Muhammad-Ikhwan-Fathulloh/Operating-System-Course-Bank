@@ -1,4 +1,4 @@
-# Prinsip Perangkat Keras I/O
+# Pertemuan 12: Pengertian dan Prinsip Kerja Perangkat Keras I/O
 
 ## 1. I/O Device
 - **I/O Device (Input/Output Device)** adalah perangkat yang digunakan untuk komunikasi antara sistem komputer dan dunia luar. Contoh perangkat I/O termasuk keyboard, mouse, monitor, printer, disk drive, dan jaringan.
