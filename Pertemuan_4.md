@@ -1,4 +1,4 @@
-# Sistem Operasi: Komponen-Komponen dan Pelayanan
+# Pertemuan 4: Komponen Sistem Operasi dan Sumber Daya dalam Sistem Komputer
 
 ## 1. Komponen-Komponen Sistem Operasi
 
