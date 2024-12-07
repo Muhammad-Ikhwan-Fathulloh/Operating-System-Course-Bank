@@ -1,4 +1,4 @@
-# Pendahuluan Sistem Operasi
+# Pertemuan 1: Pendahuluan Sistem Operasi
 
 ## Apa itu Sistem Operasi?
 **Sistem Operasi (Operating System)** adalah perangkat lunak utama yang bertindak sebagai penghubung antara pengguna dan perangkat keras komputer. Sistem operasi mengelola semua sumber daya komputer, termasuk CPU, memori, perangkat input/output, dan penyimpanan.
