@@ -2,58 +2,58 @@
 
 ## Daftar Isi Materi Sistem Operasi:
 
-1. **Pendahuluan Sistem Operasi**  
-   Pembahasan dasar tentang apa itu sistem operasi, tujuannya, serta fungsinya dalam komputer.  
-   [Lihat Materi](Pertemuan_1.md)
+1. **Pertemuan 1**: Pendahuluan Sistem Operasi  
+   [Lihat Materi](Pertemuan_1.md)  
+   [Simulasi: Sistem Operasi Virtual di Browser](https://copy.sh/v86/)
 
-2. **Dasar-dasar Sistem Operasi**  
-   Konsep dasar seperti multitasking, manajemen sumber daya, dan komunikasi antar proses.  
-   [Lihat Materi](Pertemuan_2.md)
+2. **Pertemuan 2**: Dasar-dasar Sistem Operasi  
+   [Lihat Materi](Pertemuan_2.md)  
+   [Simulasi: Linux Terminal Emulator Online](https://www.webminal.org/)
 
-3. **Arti dan Fungsi Sistem Operasi**  
-   Penjelasan tentang apa yang dilakukan oleh sistem operasi dan bagaimana ia mengelola perangkat keras serta perangkat lunak.  
-   [Lihat Materi](Pertemuan_3.md)
+3. **Pertemuan 3**: Arti dan Fungsi Sistem Operasi  
+   [Lihat Materi](Pertemuan_3.md)  
+   [Simulasi: Linux File System Online](https://bellard.org/jslinux/)
 
-4. **Komponen Sistem Operasi dan Sumber Daya dalam Sistem Komputer**  
-   Memahami bagian-bagian sistem operasi, seperti kernel, dan bagaimana sistem operasi mengelola perangkat keras dan perangkat lunak.  
-   [Lihat Materi](Pertemuan_4.md)
+4. **Pertemuan 4**: Komponen Sistem Operasi dan Sumber Daya dalam Sistem Komputer  
+   [Lihat Materi](Pertemuan_4.md)  
+   [Simulasi: Visualisasi Struktur Sistem Operasi](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/)
 
-5. **Konsep Dasar Manajemen Proses**  
-   Pemahaman tentang bagaimana sistem operasi mengelola proses yang berjalan, seperti pembuatan dan penghentian proses, serta penjadwalan proses.  
-   [Lihat Materi](Pertemuan_5.md)
+5. **Pertemuan 5**: Konsep Dasar Manajemen Proses  
+   [Lihat Materi](Pertemuan_5.md)  
+   [Simulasi: Simulasi Manajemen Proses](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_ProcessManagement.html)
 
-6. **Konsep Dasar Penjadwalan Prosesor**  
-   Menyusun dan mengelola penjadwalan prosesor untuk optimasi kinerja sistem operasi.  
-   [Lihat Materi](Pertemuan_6.md)
+6. **Pertemuan 6**: Konsep Dasar Penjadwalan Prosesor  
+   [Lihat Materi](Pertemuan_6.md)  
+   [Simulasi: CPU Scheduling Algorithms](https://os-sim.github.io/)
 
-7. **E-Learning pada Sistem Operasi**  
-   Pembahasan mengenai pemanfaatan e-learning untuk mempelajari sistem operasi atau mungkin penerapan sistem operasi dalam konteks pendidikan.  
-   [Lihat Materi](Pertemuan_7.md)
+7. **Pertemuan 7**: E-Learning pada Sistem Operasi  
+   [Lihat Materi](Pertemuan_7.md)  
+   [Simulasi: Sistem Operasi Virtual Online](https://copy.sh/v86/)
 
-8. **Konsep Critical Section, Sinkronisasi Software, dan Sinkronisasi Hardware**  
-   Pembahasan tentang bagaimana proses dapat berinteraksi dengan aman melalui mekanisme sinkronisasi untuk menghindari kondisi balapan (race condition).  
-   [Lihat Materi](Pertemuan_8.md)
+8. **Pertemuan 8**: Konsep Critical Section, Sinkronisasi Software, dan Sinkronisasi Hardware  
+   [Lihat Materi](Pertemuan_8.md)  
+   [Simulasi: Deadlock and Synchronization Simulator](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/7_Deadlocks.html)
 
-9. **Pengertian dan Konsep Dasar Memori**  
-   Membahas konsep dasar pengelolaan memori dalam sistem operasi, termasuk alokasi memori.  
-   [Lihat Materi](Pertemuan_9.md)
+9. **Pertemuan 9**: Pengertian dan Konsep Dasar Memori  
+   [Lihat Materi](Pertemuan_9.md)  
+   [Simulasi: Memory Management Visualization](http://www.cs.colostate.edu/~cs370/Fall21/memory/memory.html)
 
-10. **Fungsi Memori Semu (Virtual Memory)**  
-    Memahami bagaimana sistem operasi menggunakan virtual memory untuk meningkatkan efisiensi dan memungkinkan eksekusi program yang lebih besar dari ukuran fisik memori.  
-    [Lihat Materi](Pertemuan_10.md)
+10. **Pertemuan 10**: Fungsi Memori Semu (Virtual Memory)  
+    [Lihat Materi](Pertemuan_10.md)  
+    [Simulasi: Virtual Memory Manager](https://www.cs.usfca.edu/~cruse/cs630f04/pgsim/pgsim.html)
 
-11. **Konsep File dan Directory serta Manajemen Ruang Kosong dalam Sistem File**  
-    Pengelolaan file dan direktori dalam sistem operasi, serta bagaimana ruang kosong pada media penyimpanan dikelola.  
-    [Lihat Materi](Pertemuan_11.md)
+11. **Pertemuan 11**: Konsep File dan Directory serta Manajemen Ruang Kosong dalam Sistem File  
+    [Lihat Materi](Pertemuan_11.md)  
+    [Simulasi: File System Simulator](http://people.scs.carleton.ca/~deugo/OSDemos/FileSystem/)
 
-12. **Pengertian dan Prinsip Kerja Perangkat Keras I/O**  
-    Pembahasan tentang perangkat keras Input/Output (I/O), controller, dan bagaimana komunikasi terjadi antara perangkat keras dan sistem operasi.  
-    [Lihat Materi](Pertemuan_12.md)
+12. **Pertemuan 12**: Pengertian dan Prinsip Kerja Perangkat Keras I/O  
+    [Lihat Materi](Pertemuan_12.md)  
+    [Simulasi: I/O System Simulator](https://www.tutorialspoint.com/operating_system/os_io_system.html)
 
-13. **Mekanisme Proteksi dalam Sistem Komputer**  
-    Memahami bagaimana sistem operasi mengamankan akses ke data dan sumber daya melalui proteksi dan hak akses.  
-    [Lihat Materi](Pertemuan_13.md)
+13. **Pertemuan 13**: Mekanisme Proteksi dalam Sistem Komputer  
+    [Lihat Materi](Pertemuan_13.md)  
+    [Simulasi: Cybersecurity Lab](https://www.kaspersky.com/cybersecurity)
 
-14. **E-Learning dan Evaluasi Sistem Operasi**  
-    Menyediakan pengetahuan tentang evaluasi sistem operasi, serta penerapan e-learning dalam pembelajaran konsep-konsep ini.  
-    [Lihat Materi](Pertemuan_14.md)
+14. **Pertemuan 14**: E-Learning dan Evaluasi Sistem Operasi  
+    [Lihat Materi](Pertemuan_14.md)  
+    [Simulasi: Evaluasi via Kahoot](https://kahoot.com/)
