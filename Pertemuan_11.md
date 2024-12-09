@@ -1,9 +1,13 @@
 # Pertemuan 11: Konsep File dan Directory serta Manajemen Ruang Kosong dalam Sistem File
 
+---
+
 ## 1. Konsep File
 - **File** adalah kumpulan data yang disimpan di perangkat penyimpanan (seperti hard disk atau SSD) yang dapat diakses, diubah, dan dikelola oleh pengguna atau program.
 - File memiliki atribut seperti nama, ukuran, tipe, dan lokasi penyimpanan di disk.
 - File dapat berisi data dalam berbagai format seperti teks, gambar, video, atau program eksekusi.
+
+---
 
 ### 1.1 Jenis-jenis File
 - **File Teks**: Menyimpan data dalam bentuk teks yang dapat dibaca oleh manusia.

@@ -1,5 +1,7 @@
 # Pertemuan 6: Konsep Dasar Penjadwalan Prosesor
 
+---
+
 ## 1. Penjadwalan Proses
 Penjadwalan proses adalah mekanisme dalam sistem operasi yang mengatur urutan eksekusi proses di CPU. Tujuan utama penjadwalan adalah untuk meningkatkan efisiensi penggunaan CPU dan memberikan waktu respons yang baik untuk pengguna.
 

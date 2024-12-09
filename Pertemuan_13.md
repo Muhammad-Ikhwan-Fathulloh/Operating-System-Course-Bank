@@ -1,5 +1,7 @@
 # Pertemuan 13: Mekanisme Proteksi dalam Sistem Komputer
 
+---
+
 ## 1. Tujuan dari Proteksi
 - **Proteksi** dalam sistem komputer adalah mekanisme yang bertujuan untuk memastikan bahwa akses terhadap sumber daya sistem (seperti memori, file, perangkat keras) dikendalikan dengan cara yang tepat.
 - Tujuan utama dari proteksi adalah:

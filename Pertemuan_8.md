@@ -1,5 +1,7 @@
 # Pertemuan 8: Konsep Critical Section, Sinkronisasi Software, dan Sinkronisasi Hardware
 
+---
+
 ## 1. Masalah Critical Section
 Critical Section adalah bagian dari kode dalam suatu proses di mana proses tersebut mengakses sumber daya bersama (shared resource) yang tidak boleh diakses secara bersamaan oleh proses lain. 
 
@@ -69,18 +71,26 @@ Menghilangkan salah satu dari keempat kondisi deadlock:
 - **No Preemption**: Izinkan pengambilan sumber daya dari proses.
 - **Circular Wait**: Tetapkan urutan total untuk permintaan sumber daya.
 
+---
+
 ### 6.2 Penghindaran Deadlock
 - Menggunakan algoritma seperti **Banker’s Algorithm**.
 - Analisis alokasi sumber daya sebelum diberikan untuk memastikan tidak terjadi deadlock.
+
+---
 
 ### 6.3 Pendeteksian Deadlock
 - Sistem secara rutin memeriksa apakah deadlock terjadi menggunakan grafik tunggu (Wait-For Graph).
 - Jika ditemukan siklus, deadlock sedang terjadi.
 
+---
+
 ### 6.4 Recovery Deadlock
 Jika deadlock terdeteksi, langkah-langkah berikut dapat diambil:
 1. **Terminating Processes**: Hentikan satu atau lebih proses untuk memutus siklus deadlock.
 2. **Preemption**: Ambil kembali sumber daya dari proses tertentu.
+
+---
 
 ### 6.5 Pendekatan Kombinasi
 Menggabungkan beberapa metode di atas untuk:

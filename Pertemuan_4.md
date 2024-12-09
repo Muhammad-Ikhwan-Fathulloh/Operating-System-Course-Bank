@@ -1,5 +1,7 @@
 # Pertemuan 4: Komponen Sistem Operasi dan Sumber Daya dalam Sistem Komputer
 
+---
+
 ## 1. Komponen-Komponen Sistem Operasi
 
 ### 1.1 Manajemen Proses
@@ -57,6 +59,8 @@ int fd = open("file.txt", O_RDWR);
 write(fd, "Hello World", 11);
 close(fd);
 ```
+
+---
 
 ### 2.2 Sistem Program
 Sistem program adalah perangkat lunak yang mendukung pengembangan aplikasi, seperti:

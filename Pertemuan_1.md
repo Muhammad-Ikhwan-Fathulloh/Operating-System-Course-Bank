@@ -1,7 +1,11 @@
 # Pertemuan 1: Pendahuluan Sistem Operasi
 
+---
+
 ## Apa itu Sistem Operasi?
 **Sistem Operasi (Operating System)** adalah perangkat lunak utama yang bertindak sebagai penghubung antara pengguna dan perangkat keras komputer. Sistem operasi mengelola semua sumber daya komputer, termasuk CPU, memori, perangkat input/output, dan penyimpanan.
+
+---
 
 Sistem operasi bertugas untuk:
 - **Mengelola Proses:** Menjalankan dan mengatur tugas yang dilakukan oleh program.
@@ -84,3 +88,13 @@ Sistem operasi bertugas untuk:
    Memahami bagaimana OS mengoptimalkan penggunaan perangkat keras.
 4. **Keamanan dan Proteksi:** 
    Mempelajari cara melindungi data dan sistem dari ancaman.
+
+---
+
+## Kesimpulan
+
+- **Sistem Operasi** adalah perangkat lunak utama yang menghubungkan antara pengguna dan perangkat keras komputer, mengelola berbagai sumber daya untuk memastikan sistem berfungsi dengan baik.
+- **Fungsi utama** sistem operasi meliputi pengelolaan proses, memori, file, perangkat I/O, serta memberikan keamanan dan perlindungan data.
+- Ada berbagai **jenis sistem operasi**, termasuk sistem operasi batch, real-time, multi-user, dan mobile, masing-masing dengan kegunaan dan aplikasinya sendiri.
+- Komponen utama sistem operasi, seperti **kernel**, **shell**, **device drivers**, dan **system utilities**, bekerja bersama untuk memastikan sistem berjalan dengan efisien.
+- Mempelajari sistem operasi memberikan manfaat dalam **memahami dasar komputer**, meningkatkan **kemampuan pemrograman**, mengoptimalkan **penggunaan sumber daya**, serta meningkatkan **keamanan sistem**.

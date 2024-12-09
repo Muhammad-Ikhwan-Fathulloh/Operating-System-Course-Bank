@@ -1,5 +1,7 @@
 # Pertemuan 3: Arti dan Fungsi Sistem Operasi
 
+---
+
 ## 1. Definisi Sistem Operasi
 Sistem operasi adalah perangkat lunak yang berfungsi sebagai perantara antara pengguna dan perangkat keras komputer. Sistem operasi mengelola sumber daya komputer seperti CPU, memori, perangkat I/O, dan penyimpanan data untuk mendukung eksekusi program.
 

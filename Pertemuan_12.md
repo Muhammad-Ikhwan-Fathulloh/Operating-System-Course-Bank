@@ -1,5 +1,7 @@
 # Pertemuan 12: Pengertian dan Prinsip Kerja Perangkat Keras I/O
 
+---
+
 ## 1. I/O Device
 - **I/O Device (Input/Output Device)** adalah perangkat yang digunakan untuk komunikasi antara sistem komputer dan dunia luar. Contoh perangkat I/O termasuk keyboard, mouse, monitor, printer, disk drive, dan jaringan.
 - I/O devices dapat dibedakan menjadi dua jenis: 
@@ -77,22 +79,32 @@
 - **Penjadwalan Disk** adalah proses menentukan urutan permintaan I/O disk yang akan diproses.
 - Tujuannya adalah untuk meminimalkan waktu pencarian (seek time) dan waktu putaran (rotational latency).
 
+---
+
 ### 2.1 First Come First Served Scheduling (FCFS)
 - **FCFS Scheduling**: Permintaan I/O diproses sesuai urutan kedatangan tanpa mempertimbangkan posisi head disk.
 - Kekurangan: Dapat menyebabkan waktu pencarian yang lebih lama jika permintaan terpisah jauh.
+
+---
 
 ### 2.2 Shortest Seek Time First Scheduling (SSTF)
 - **SSTF Scheduling**: Memilih permintaan yang paling dekat dengan posisi head saat ini.
 - Keuntungan: Mengurangi waktu pencarian.
 - Kekurangan: Dapat menyebabkan starvation pada permintaan yang jauh.
 
+---
+
 ### 2.3 SCAN Scheduling
 - **SCAN Scheduling**: Head disk bergerak ke arah satu sisi disk, memproses permintaan di sepanjang jalan, kemudian berbalik arah setelah mencapai ujung disk.
 - Keuntungan: Mengurangi waktu pencarian dibandingkan FCFS.
 
+---
+
 ### 2.4 C-SCAN Scheduling
 - **C-SCAN Scheduling**: Serupa dengan SCAN, tetapi setelah mencapai ujung, head disk kembali ke posisi awal tanpa memproses permintaan.
 - Keuntungan: Mengurangi waktu pencarian lebih lanjut dengan menghindari gerakan bolak-balik yang tidak perlu.
+
+---
 
 ### 2.5 Look Scheduling
 - **Look Scheduling**: Memilih arah yang lebih dekat untuk diproses, tetapi tidak memaksakan head disk untuk bergerak ke ujung disk seperti SCAN.

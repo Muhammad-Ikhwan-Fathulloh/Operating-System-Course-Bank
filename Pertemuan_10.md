@@ -1,5 +1,7 @@
 # Pertemuan 10: Fungsi Memori Semu (Virtual Memory)
 
+---
+
 ## 1. Memori Virtual
 Memori virtual adalah teknik yang digunakan untuk memberikan ilusi memori yang lebih besar dari memori fisik yang sebenarnya tersedia dengan memanfaatkan penyimpanan sekunder. Dengan memori virtual, sistem dapat menjalankan program yang lebih besar daripada memori fisik yang tersedia.
 
@@ -28,9 +30,13 @@ Berikut adalah beberapa algoritma penggantian halaman yang umum digunakan:
 #### Kekurangan:
 - Tidak efisien dalam beberapa kasus karena bisa menggantikan halaman yang sering digunakan.
 
+---
+
 #### 2.1.2 Algoritma Optimal
 - **Optimal** adalah algoritma penggantian halaman yang menggantikan halaman yang tidak akan digunakan lagi untuk waktu yang paling lama di masa depan.
 - Algoritma ini memberikan performa terbaik tetapi tidak dapat diimplementasikan dalam praktek karena memerlukan pengetahuan tentang urutan akses halaman yang akan datang.
+
+---
 
 #### 2.1.3 Algoritma Least Recently Used (LRU)
 - **LRU** menggantikan halaman yang paling lama tidak digunakan, yaitu halaman yang tidak diakses dalam waktu yang lama.

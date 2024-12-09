@@ -1,5 +1,7 @@
 # Pertemuan 2: Dasar-dasar Sistem Operasi
 
+---
+
 ## 1. Konsep Dasar Sistem Komputer dan Sistem Operasi
 
 ### Sistem Komputer
@@ -7,6 +9,8 @@ Sistem komputer adalah kumpulan perangkat keras (hardware) dan perangkat lunak (
 - **Hardware:** CPU, memori, perangkat I/O, dan media penyimpanan.
 - **Software:** Sistem operasi dan program aplikasi.
 - **User:** Pengguna yang berinteraksi dengan komputer.
+
+---
 
 ### Sistem Operasi
 Sistem operasi adalah perangkat lunak yang bertindak sebagai perantara antara pengguna dan perangkat keras komputer. Fungsi utama sistem operasi adalah:
@@ -23,6 +27,8 @@ Proses adalah program yang sedang dieksekusi. Proses terdiri dari:
 - **Kode program:** Instruksi yang dijalankan.
 - **Data:** Variabel dan struktur data yang digunakan oleh program.
 - **Konteks Eksekusi:** Informasi seperti nilai register, counter program, dan status proses.
+
+---
 
 ### Fungsi Manajemen Proses
 - **Penjadwalan Proses:** Memutuskan proses mana yang akan dieksekusi.

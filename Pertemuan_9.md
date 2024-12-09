@@ -1,5 +1,7 @@
 # Pertemuan 9: Pengertian dan Konsep Dasar Memori
 
+---
+
 ## 1. Konsep Dasar Memori
 Manajemen memori adalah salah satu fungsi utama sistem operasi untuk mengelola penggunaan memori oleh berbagai proses.
 
