@@ -137,4 +137,7 @@
 
 Jika pengguna mencoba membuat file dengan nama yang sama (`file1.txt`), file lama akan ditimpa oleh file baru.
 
+## Praktek
+- https://os-sim.github.io/
+
 
