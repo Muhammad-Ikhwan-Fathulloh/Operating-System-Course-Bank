@@ -14,7 +14,8 @@
 2. Eksekusi proses satu per satu berdasarkan urutan kedatangan.
 
 ### **Gantt Chart:**  
-| P1 | P2 | P3 | 0 5 8 16
+| P1 | P2 | P3 | 
+0 5 8 16
 
 
 ### **Perhitungan:**
