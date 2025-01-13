@@ -65,93 +65,136 @@ Docker mendukung banyak sistem operasi seperti Linux, Windows, dan macOS.
 
 ---
 
-## Membuat Aplikasi Sederhana dengan Docker
+## Aplikasi Sederhana dengan Docker
 
-### Langkah 1: Membuat Dockerfile
-Buat file bernama `Dockerfile`:
+Proyek ini menunjukkan cara membuat aplikasi HTML dan JavaScript sederhana yang di-deploy menggunakan Docker.
+
+---
+
+### Struktur Proyek
+
+```
+simple-docker-app/
+├── index.html
+├── app.js
+├── Dockerfile
+```
+
+---
+
+### 1. File HTML: `index.html`
+File HTML utama.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Docker Sederhana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Selamat Datang di Aplikasi Docker Sederhana</h1>
+  <button id="clickMe">Klik Saya</button>
+  <p id="output"></p>
+  <script src="app.js"></script>
+</body>
+</html>
+```
+
+---
+
+### 2. File JavaScript: `app.js`
+Script untuk menangani event klik tombol.
+
+```javascript
+document.getElementById('clickMe').addEventListener('click', function () {
+  document.getElementById('output').textContent = 'Halo dari JavaScript!';
+});
+```
+
+---
+
+### 3. Dockerfile
+Dockerfile untuk mendeploy aplikasi menggunakan Nginx.
+
 ```dockerfile
-# Menggunakan base image
-FROM python:3.9-slim
+# Gunakan Nginx sebagai base image
+FROM nginx:alpine
 
-# Menyalin file aplikasi ke container
-COPY app.py /app/app.py
+# Salin file HTML dan JS ke direktori default Nginx
+COPY index.html /usr/share/nginx/html/
+COPY app.js /usr/share/nginx/html/
 
-# Menetapkan direktori kerja
-WORKDIR /app
+# Expose port 80 untuk akses HTTP
+EXPOSE 80
 
-# Menjalankan aplikasi saat container dijalankan
-CMD ["python", "app.py"]
+# Jalankan Nginx
+CMD ["nginx", "-g", "daemon off;"]
 ```
 
-### Langkah 2: Menyusun Aplikasi Python
-Buat file `app.py`:
-```python
-print("Halo, Docker!")
+---
+
+### 4. Build dan Jalankan Docker Container
+
+#### a. Build Docker Image
+Jalankan perintah berikut untuk membangun Docker image:
+
+```bash
+docker build -t simple-docker-app .
 ```
 
-### Langkah 3: Build dan Jalankan Docker Container
-1. **Build Image**:
-   ```bash
-   docker build -t my-python-app .
-   ```
+#### b. Jalankan Docker Container
+Jalankan container dan mapping ke port 8080 di komputer lokal Anda:
 
-2. **Jalankan Container**:
-   ```bash
-   docker run my-python-app
-   ```
+```bash
+docker run -d -p 8080:80 simple-docker-app
+```
 
----
+#### c. Akses Aplikasi
+Buka browser Anda dan akses:
 
-## Docker Compose untuk Aplikasi Multi-Container
-
-Docker Compose mempermudah pengelolaan aplikasi dengan banyak container. Misalnya, aplikasi web dengan database.
-
-### Contoh: Aplikasi Web dengan Database
-
-1. Buat file `docker-compose.yml`:
-   ```yaml
-   version: '3.8'
-   services:
-     web:
-       image: nginx:latest
-       ports:
-         - "8080:80"
-
-     db:
-       image: postgres:latest
-       environment:
-         POSTGRES_USER: user
-         POSTGRES_PASSWORD: password
-         POSTGRES_DB: mydb
-   ```
-
-2. Jalankan aplikasi:
-   ```bash
-   docker-compose up
-   ```
-
-3. Akses aplikasi di `http://localhost:8080`.
+```
+http://localhost:8080
+```
 
 ---
 
-## Latihan Praktis
+### 5. Opsional: Push ke Docker Hub
 
-### 1. Membuat Container dengan Web Server
-- Gunakan image `nginx`.
-- Jalankan perintah berikut:
-  ```bash
-  docker run -d -p 8080:80 nginx
-  ```
-- Akses web server di `http://localhost:8080`.
+#### a. Login ke Docker Hub
 
-### 2. Menjalankan PostgreSQL dengan Docker
-- Gunakan image `postgres`.
-- Jalankan perintah:
-  ```bash
-  docker run -d --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 postgres
-  ```
+```bash
+docker login
+```
+
+#### b. Tag Docker Image
+
+```bash
+docker tag simple-docker-app username-dockerhub/simple-docker-app
+```
+
+#### c. Push Image ke Docker Hub
+
+```bash
+docker push username-dockerhub/simple-docker-app
+```
 
 ---
+
+Aplikasi HTML dan JavaScript sederhana Anda sekarang berjalan di dalam Docker container! 🚀
 
 ## Manfaat Docker dalam Sistem Operasi
 1. **Portabilitas**: Aplikasi berjalan di lingkungan yang sama, terlepas dari sistem operasi host.
