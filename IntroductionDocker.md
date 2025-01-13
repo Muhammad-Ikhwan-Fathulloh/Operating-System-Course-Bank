@@ -80,6 +80,11 @@ simple-docker-app/
 ├── Dockerfile
 ```
 
+```
+touch index.html
+touch app.js
+touch Dockerfile
+```
 ---
 
 ### 1. File HTML: `index.html`
