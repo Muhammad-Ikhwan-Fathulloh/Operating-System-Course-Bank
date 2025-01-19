@@ -10,18 +10,18 @@ Kode awal diberikan di bawah ini, dan mahasiswa harus mengikuti petunjuk sesuai 
 ## **Langkah-Langkah Penugasan**
 
 1. **Gunakan kode awal berikut ini:**
-   > [Link Source Code Awal]([#tempelkan-source-code-atau-tambahkan-di-repositori](https://github.com/Muhammad-Ikhwan-Fathulloh/VaultSync))
+   > [Link Source Code Awal](https://github.com/Muhammad-Ikhwan-Fathulloh/VaultSync)
 
-2. **Petunjuk Modifikasi:**
+3. **Petunjuk Modifikasi:**
    - Gunakan dua digit terakhir **NIM** Anda (`XX`) untuk menentukan tantangan spesifik yang harus Anda kerjakan.
    - Lihat daftar tantangan berdasarkan digit NIM di bawah ini.
 
-3. **Hasil Akhir:**
+4. **Hasil Akhir:**
    - File yang dimodifikasi harus mencakup:
      1. Kode sumber dengan fitur tambahan yang berfungsi.
      2. Dokumentasi singkat dalam file `README.md` yang menjelaskan fitur tambahan Anda.
 
-4. **Pengumpulan:**
+5. **Pengumpulan:**
    - Kompres proyek Anda dalam format ZIP.
    - Beri nama file Anda dengan format: `UAS_<Nama>_<NIM>.zip`.
    - Upload ke sistem LMS atau email sesuai instruksi dosen.
