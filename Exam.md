@@ -10,7 +10,7 @@ Kode awal diberikan di bawah ini, dan mahasiswa harus mengikuti petunjuk sesuai 
 ## **Langkah-Langkah Penugasan**
 
 1. **Gunakan kode awal berikut ini:**
-   > [Link Source Code Awal](https://github.com/Muhammad-Ikhwan-Fathulloh/VaultSync)
+   > [Link Source Code Awal](https://github.com/yastiaisyah/VaultSync)
 
 3. **Petunjuk Modifikasi:**
    - Gunakan dua digit terakhir **NIM** Anda (`XX`) untuk menentukan tantangan spesifik yang harus Anda kerjakan.
@@ -63,16 +63,3 @@ Kode awal diberikan di bawah ini, dan mahasiswa harus mengikuti petunjuk sesuai 
   7. Tambahkan **sistem autentikasi dasar**:
      - Buat middleware untuk memvalidasi token API sederhana.
      - Hanya permintaan dengan token valid yang dapat mengakses endpoint.
-
----
-
-## **Penilaian**
-
-| Kriteria Penilaian                 | Bobot (%) |
-|------------------------------------|-----------|
-| Implementasi Fitur Baru            | 40%       |
-| Struktur Kode dan Kebersihan       | 20%       |
-| Dokumentasi (README.md)            | 20%       |
-| Pengujian dan Fungsionalitas       | 20%       |
-
----
